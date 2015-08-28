@@ -15,6 +15,7 @@
 @property (nonatomic) CGFloat insets;
 @property (nonatomic) CGFloat preferredMaxLayoutWidth;
 @property (nonatomic) BOOL singleLine;
+@property (nonatomic, strong) NSMutableArray *tags;
 
 - (void)addTag:(SKTag *)tag;
 - (void)insertTag:(SKTag *)tag atIndex:(NSUInteger)index;
