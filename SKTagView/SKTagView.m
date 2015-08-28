@@ -13,7 +13,7 @@
 
 @interface SKTagView ()
 @property (nonatomic, strong) NSMutableArray *tagsConstraints;
-@property (nonatomic, strong) NSMutableArray *tags;
+// @property (nonatomic, strong) NSMutableArray *tags;
 @property (nonatomic) BOOL didSetup;
 @end
 
